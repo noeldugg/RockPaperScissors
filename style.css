@@ -1,6 +1,24 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
+   display: flex;
+   flex-direction: column;
      text-align: center;
      justify-content: center;
+     background-color: rgba(70, 48, 48, 0.3);
+}
+#picks {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    
+    
+   
+}
+
+img {
+  max-width: 13rem;
+  flex-direction: row;
+
 }
