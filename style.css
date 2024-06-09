@@ -1,24 +1,45 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-   display: flex;
-   flex-direction: column;
-     text-align: center;
-     justify-content: center;
-     background-color: rgba(70, 48, 48, 0.3);
-}
-#picks {
+body {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h1 {
+   
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+button {
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 2rem;
+color: #fff ;
+background-color: #000;
+
+}
+img {
+    max-width: 150px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: #000;
+}
+.choices {
+    display: flex;
+    flex-direction: row;
     gap: 3rem;
-    margin-top: 2rem;
-    
-    
    
 }
-
-img {
-  max-width: 13rem;
-  flex-direction: row;
-
+.choice {
+    font-weight: 900;
+    text-transform: uppercase;
 }
+
