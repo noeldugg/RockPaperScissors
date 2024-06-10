@@ -46,6 +46,7 @@ img {
     text-transform: uppercase;
     transition: 0.5s;
     border-radius: 20px;
+    box-shadow: 10px 10px black;
 }
 .choice:hover {
     transform: translateY(-10px);
@@ -55,13 +56,14 @@ img {
     flex-direction:column;
 }
 #score-board {
-    border: 1px solid;
+    border: 1px solid black;
     margin: 0 auto ;
     padding: 1rem 0.5em;
     margin-top: 5rem;
     width: 75%;
     text-align: start;
     border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
 }
 #player-score {
     font-size: 2rem;
