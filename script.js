@@ -24,3 +24,36 @@ function game(playerChoice){
     updateScores(winner);
     displayResult(winner, playerChoice, computerChoice);
 }
+function determineWinner(player, computer) {
+    if (player === computer) {
+        return "draw";
+    } else if (
+        (player === "rock" && computer === "scissors") ||
+        (player === "paper" && computer === "rock") ||
+        (player === "scissors" && computer === "paper")
+    ) {
+        return "player";
+    } else {
+        return "computer";
+    }
+}
+
+function updateScores(winner) {
+    if (winner === "player") {
+        playerScoreCount++;
+    } else if (winner === "computer") {
+        computerScoreCount++;
+    }
+    playerScore.textContent = `Player: ${playerScoreCount}`;
+    computerScore.textContent = `Computer: ${computerScoreCount}`;
+}
+
+function displayResult(winner, playerChoice, computerChoice) {
+    if (winner === "draw") {
+        result.textContent = `It's a draw! You both chose ${playerChoice}.`;
+    } else if (winner === "player") {
+        result.textContent = `You win! ${playerChoice} beats ${computerChoice}.`;
+    } else {
+        result.textContent = `You lose! ${computerChoice} beats ${playerChoice}.`;
+    }
+}
