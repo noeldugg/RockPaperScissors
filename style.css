@@ -19,27 +19,54 @@ h3 {
 
 button {
     text-decoration: none;
-    border: 2px;
-    border-radius: 5px;
-    font-size: 2rem;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 1rem;
 color: #fff ;
 background-color: #000;
 
 }
 img {
-    max-width: 150px;
-    border: 2px solid black;
-    border-radius: 4px;
+   width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
     box-shadow: #000;
+    margin: 0 auto;
+    padding: 1rem 0.5em;
 }
 .choices {
     display: flex;
     flex-direction: row;
     gap: 3rem;
-   
+    width: 55%;
+   margin: 0 auto;
 }
 .choice {
     font-weight: 900;
     text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 20px;
 }
+.choice:hover {
+    transform: translateY(-10px);
+}
+.container {
+    display: flex;
+    flex-direction:column;
+}
+#score-board {
+    border: 1px solid;
+    margin: 0 auto ;
+    padding: 1rem 0.5em;
+    margin-top: 5rem;
+    width: 75%;
+    text-align: start;
+    border-radius: 5px;
+}
+#player-score {
+    font-size: 2rem;
 
+}
+#computer-score {
+    font-size: 2rem;
+}
