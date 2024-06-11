@@ -21,9 +21,41 @@ Gather your friends and family, or take on the computer solo – it’s time to 
  - It tells the user the game that they are playing.
 
  - ## The Game Options
- - You are given a choice between Rock Paper or Scissors with clickabke image buttons letting you decide on your choice
+ - You are given a choice between Rock Paper or Scissors with clickabke image buttons letting you decide on your choice.
 
 ![Screenshot 2024-06-11 12 46 23](https://github.com/noeldugg/RockPaperScissors/assets/157477260/8c732054-a89e-4894-a678-6da8e3ac4211)
+- The buttons are interactive and are clickable.
+- When the user clicks on an option the Game will start with the computer choosing aswell at random.
+
+- ![Screenshot 2024-06-11 14 23 16](https://github.com/noeldugg/RockPaperScissors/assets/157477260/8f4d1941-f6b4-4c18-a277-84e18806e21c)
+
+- The User choose paper while the cpu choose rock! Resulting in the Player winning.
+- The game will keep until the user decides thats enough.
+
+- ![Screenshot 2024-06-11 14 26 08](https://github.com/noeldugg/RockPaperScissors/assets/157477260/44b7c3d0-24fb-4226-8775-d81c1c5e0e0f)
+ - This tracks the score , while displaying why the user wins the game.
+ - There is a restart button to reset the score and start from scratch.
+
+
+# Design 
+- I focused on a sleek design with #fff and #000 colors, to keep the layout simple.
+- I used box shadow effects to give it a old school game type feel.
+- I used the hover effect to make the options interactive
+
+
+
+
+
+# Testing 
+
+- I tested playing the game on different browsers: Chrome, Firefox ,Safari.
+- I confirmed that the game results were correct.
+- I confirmed that the header and main area are all clear and readable.
+- The fonts and colors choosen were chosen for easy readability and accessible.
+
+![Screenshot 2024-06-11 14 38 17](https://github.com/noeldugg/RockPaperScissors/assets/157477260/cf854b01-a041-4bc0-ba7e-76e7ba933d2e)
+
+
 
 
 
