@@ -13,15 +13,18 @@ Gather your friends and family, or take on the computer solo – it’s time to 
 
  Features:
 
-Multiplayer Fun: Engage in lively matches with your friends and family, either in the same room or remotely. Create tournaments, keep track of victories, and see who emerges as the ultimate Rock-Paper-Scissors champion!
-Solo Play: Test your skills in solo mode, where you'll face off against an intelligent computer opponent that adjusts to your playing style. Can you outsmart the computer and claim victory?
-Interactive Gameplay: Enjoy a seamless and user-friendly interface that makes it easy to jump into a game. Visual and sound effects add to the excitement, making each match a thrilling experience.
-Real-time Results: Get instant feedback on each round. The game keeps track of your score, providing a detailed summary of your performance after every match.
-Customizable Options: Choose from a variety of themes and settings to personalize your gaming experience. Whether you prefer a classic look or something more modern, there's something for everyone.
+ ## Features 
+
+ ### Header 
+ ![Screenshot 2024-06-11 12 34 15](https://github.com/noeldugg/RockPaperScissors/assets/157477260/d9344880-c9de-42b9-ad40-e435845b8f8d)
+ - The Header shows the game name , Rock Paper Scissors
+ - It tells the user the game that they are playing.
+
+ - ## The Game Options
+ - You are given a choice between Rock Paper or Scissors with clickabke image buttons letting you decide on your choice
+
+![Screenshot 2024-06-11 12 46 23](https://github.com/noeldugg/RockPaperScissors/assets/157477260/8c732054-a89e-4894-a678-6da8e3ac4211)
 
 
 
-Select Your Mode: Choose between playing against friends and family or taking on the computer. You can switch modes anytime for a fresh challenge.
-Make Your Move: Each player selects one of three options – rock, paper, or scissors. The choices are revealed simultaneously to determine the winner.
-Understand the Rules: Rock crushes scissors, scissors cut paper, and paper covers rock. It’s a simple yet strategic game where every choice counts.
-Track Your Progress: After each round, see who won and keep an eye on the overall score. The game continues until a predetermined number of rounds have been played or until one player decides to claim victory.
+
