@@ -7,6 +7,9 @@ const rock = document.getElementById("rock")
 const paper = document.getElementById("paper")
 const scissors = document.getElementById("scissors")
 const result = document.getElementById("result");
+const resultImage = document.getElementById("result-image")
+const playerChoiceImg = document.getElementById("player-choice-img");
+const computerChoiceImg = document.getElementById("computer-choice-img");
 
 
 let playerScoreCount = 0;
@@ -24,6 +27,8 @@ function game(playerChoice){
     updateScores(winner);
     displayResult(winner, playerChoice, computerChoice);
 }
+
+
 function determineWinner(player, computer) {
     if (player === computer) {
         return "draw";
@@ -56,4 +61,8 @@ function displayResult(winner, playerChoice, computerChoice) {
     } else {
         result.textContent = `You lose! ${computerChoice} beats ${playerChoice}.`;
     }
+    playerChoiceImg.src = `images/${playerChoice}.png`;
+    computerChoiceImg.src = `images/${computerChoice}.png`;
+
+
 }
