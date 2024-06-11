@@ -42,6 +42,7 @@ Gather your friends and family, or take on the computer solo – it’s time to 
 - I used box shadow effects to give it a old school game type feel.
 - I used the hover effect to make the options interactive
 
+![Screenshot 2024-06-11 15 20 13](https://github.com/noeldugg/RockPaperScissors/assets/157477260/d5ace722-000b-4d05-afd6-897561a7c462)
 
 
 
@@ -56,6 +57,10 @@ Gather your friends and family, or take on the computer solo – it’s time to 
 ![Screenshot 2024-06-11 14 38 17](https://github.com/noeldugg/RockPaperScissors/assets/157477260/cf854b01-a041-4bc0-ba7e-76e7ba933d2e)
 
 
+# Validator Testing 
+
+## Html 
+- 
 
 
 
