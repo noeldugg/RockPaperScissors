@@ -24,9 +24,9 @@ button {
 }
 img {
   width: 70%;
-  border: px solid black;
+  
   border-radius: 10px;
-  box-shadow: #000;
+  
   margin: 0 auto;
   padding: 1rem 0.5em;
   color: #000;

@@ -60,9 +60,26 @@ Gather your friends and family, or take on the computer solo – it’s time to 
 
 # Validator Testing 
 
-#### Html 
-- 
+##### Html 
+-  No errors were found when passing through the official W3C validator 
 
+#### CSS 
+- No errors were found passing through the Jigsaw validator 
 
+### Javascript 
+- No errors were found passing through the JSHint Javascript Validator
+
+# Deployment 
+- The site was deployed to GitHub pages. The website was made on gitpod .
+- I pushed every change to GitHub.
+- I selected the Master branch and made the site live.
+
+# Credits 
+- I looked at stack overflow for help -  https://stackoverflow.com/questions/74697736/how-to-loop-a-rock-paper-scissor-in-javascript
+- I looked at videos on rock paper scissor games - https://youtu.be/3uKdQx-SZ5A?si=hjEfZamfxAySAd67
+- The sample code insitute project really helped me aswell - https://youtu.be/apK6caj8bfI?si=nfClh02qGtT_MVPp
+
+# Media 
+- The images for the rock Paper Scissors were found on - https://www.pngitem.com/middle/iTobJbo_rock-paper-scissors-clipart-png-download-rock-paper/
 
 
