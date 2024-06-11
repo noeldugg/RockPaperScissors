@@ -13,15 +13,56 @@ Gather your friends and family, or take on the computer solo – it’s time to 
 
  Features:
 
-Multiplayer Fun: Engage in lively matches with your friends and family, either in the same room or remotely. Create tournaments, keep track of victories, and see who emerges as the ultimate Rock-Paper-Scissors champion!
-Solo Play: Test your skills in solo mode, where you'll face off against an intelligent computer opponent that adjusts to your playing style. Can you outsmart the computer and claim victory?
-Interactive Gameplay: Enjoy a seamless and user-friendly interface that makes it easy to jump into a game. Visual and sound effects add to the excitement, making each match a thrilling experience.
-Real-time Results: Get instant feedback on each round. The game keeps track of your score, providing a detailed summary of your performance after every match.
-Customizable Options: Choose from a variety of themes and settings to personalize your gaming experience. Whether you prefer a classic look or something more modern, there's something for everyone.
+ ## Features 
+
+ ### Header 
+ ![Screenshot 2024-06-11 12 34 15](https://github.com/noeldugg/RockPaperScissors/assets/157477260/d9344880-c9de-42b9-ad40-e435845b8f8d)
+ - The Header shows the game name , Rock Paper Scissors
+ - It tells the user the game that they are playing.
+
+ - ## The Game Options
+ - You are given a choice between Rock Paper or Scissors with clickabke image buttons letting you decide on your choice.
+
+![Screenshot 2024-06-11 12 46 23](https://github.com/noeldugg/RockPaperScissors/assets/157477260/8c732054-a89e-4894-a678-6da8e3ac4211)
+- The buttons are interactive and are clickable.
+- When the user clicks on an option the Game will start with the computer choosing aswell at random.
+
+- ![Screenshot 2024-06-11 14 23 16](https://github.com/noeldugg/RockPaperScissors/assets/157477260/8f4d1941-f6b4-4c18-a277-84e18806e21c)
+
+- The User choose paper while the cpu choose rock! Resulting in the Player winning.
+- The game will keep until the user decides thats enough.
+
+- ![Screenshot 2024-06-11 14 26 08](https://github.com/noeldugg/RockPaperScissors/assets/157477260/44b7c3d0-24fb-4226-8775-d81c1c5e0e0f)
+ - This tracks the score , while displaying why the user wins the game.
+ - There is a restart button to reset the score and start from scratch.
+
+
+# Design 
+- I focused on a sleek design with #fff and #000 colors, to keep the layout simple.
+- I used box shadow effects to give it a old school game type feel.
+- I used the hover effect to make the options interactive
+
+
+![Screenshot 2024-06-11 15 20 13](https://github.com/noeldugg/RockPaperScissors/assets/157477260/b9655d6e-70e0-4453-b2c1-1b7494097425)
 
 
 
-Select Your Mode: Choose between playing against friends and family or taking on the computer. You can switch modes anytime for a fresh challenge.
-Make Your Move: Each player selects one of three options – rock, paper, or scissors. The choices are revealed simultaneously to determine the winner.
-Understand the Rules: Rock crushes scissors, scissors cut paper, and paper covers rock. It’s a simple yet strategic game where every choice counts.
-Track Your Progress: After each round, see who won and keep an eye on the overall score. The game continues until a predetermined number of rounds have been played or until one player decides to claim victory.
+
+# Testing 
+
+- I tested playing the game on different browsers: Chrome, Firefox ,Safari.
+- I confirmed that the game results were correct.
+- I confirmed that the header and main area are all clear and readable.
+- The fonts and colors choosen were chosen for easy readability and accessible.
+
+![Screenshot 2024-06-11 14 38 17](https://github.com/noeldugg/RockPaperScissors/assets/157477260/cf854b01-a041-4bc0-ba7e-76e7ba933d2e)
+
+
+# Validator Testing 
+
+#### Html 
+- 
+
+
+
+
