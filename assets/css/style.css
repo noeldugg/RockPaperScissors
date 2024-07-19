@@ -6,12 +6,17 @@ body {
   margin: 0 auto;
   background-color: #fff;
   font-family: "Courier New", Courier, monospace;
+  /* Centers the content and applies a retro monospace font */
 }
+
 h1 {
   font-size: 3rem;
+  /* Large title for the game */
 }
+
 h3 {
   font-size: 2rem;
+  /* Subtitle for user instructions */
 }
 
 button {
@@ -21,63 +26,80 @@ button {
   font-size: 1rem;
   color: #000;
   background-color: #fff;
+  /* Basic styling for all buttons */
 }
+
 img {
   width: 70%;
-  
   border-radius: 10px;
-  
   margin: 0 auto;
   padding: 1rem 0.5em;
   color: #000;
+  /* Ensures images are consistently styled and centered */
 }
+
 .choices {
   display: flex;
   flex-direction: row;
   gap: 3rem;
   width: 55%;
   margin: 0 auto;
+  /* Aligns choice buttons in a row with spacing */
 }
+
 .choice {
   font-weight: 900;
   text-transform: uppercase;
   transition: 0.5s;
   border-radius: 20px;
   box-shadow: 0px 15px 15px 15px black;
+  /* Styles for the choice buttons, including hover effects */
 }
+
 .choice:hover {
   transform: translateY(-10px);
+  /* Adds a lift effect on hover for choice buttons */
 }
+
 .container {
   display: flex;
   flex-direction: column;
+  /* Flex container for the main content layout */
 }
+
 #score-board {
   border: 1px solid black;
   margin: 0 auto;
   padding: 1rem 0.5em;
-
   width: 75%;
   text-align: start;
   border-radius: 5px;
   box-shadow: 0px 10px 15px 10px black;
+  /* Styles the scoreboard with borders and shadows */
 }
+
 #player-score {
   font-size: 2rem;
+  /* Larger font for player score */
 }
+
 #computer-score {
   font-size: 2rem;
+  /* Larger font for computer score */
 }
 
 #Choose-image {
   margin-top: 1rem;
-
   justify-content: center;
   display: flex;
+  /* Aligns images for player and computer choices */
 }
+
 #computer-choice-img {
   text-decoration: none;
+  /* Ensures no decoration on the computer choice image */
 }
+
 #reset-button {
   font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
@@ -87,7 +109,10 @@ img {
   border: 1px solid black;
   box-shadow: 10px 10px 10px 10px #000;
   transition: 0.5s;
+  /* Styles the reset button with shadows and transitions */
 }
+
 #reset-button:hover {
   transform: translateY(-10px);
+  /* Adds a lift effect on hover for the reset button */
 }

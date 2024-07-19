@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,43 +14,43 @@
 </head>
 
 <body>
+    <!-- Main container for the game interface -->
     <div class="container">
+        <!-- Game title -->
         <h1>Rock Paper Scissors</h1>
-        <h3>Choose One
-        </h3>
+        <!-- Instruction for the user -->
+        <h3>Choose One</h3>
+        <!-- Buttons for the player to make a choice -->
         <div class="choices">
-            <button class="choice" id="rock"> <img src="images/rock.png" alt="">Rock</button>
-            <button class="choice" id="paper"><img src="images/images-removebg-preview.png" alt="">Paper</button>
-            <button class="choice" id="scissors"><img src="images/scissors.png" alt="">Scissors</button>
+            <button class="choice" id="rock"> <img src="assets/images/rock.png" alt="">Rock</button>
+            <button class="choice" id="paper"><img src="assets/images/images-removebg-preview.png" alt="">Paper</button>
+            <button class="choice" id="scissors"><img src="assets/images/scissors.png" alt="">Scissors</button>
         </div>
 
+        <!-- Display for player's and computer's choices -->
         <div id="Choose-image">
-
             <div id="player-image">
                 <h4>Player choice:</h4>
-                <img id="player-choice-img" src="images/rock.png" alt="Player choice">
+                <img id="player-choice-img" src="assets/images/rock.png" alt="Player choice">
             </div>
             <div id="computer-image">
                 <h4>Computer choice:</h4>
-                    <img id="computer-choice-img" src="images/rock.png" alt="Computer choice">
+                <img id="computer-choice-img" src="assets/images/rock.png" alt="Computer choice">
             </div>
         </div>
 
-
-
-
+        <!-- Scoreboard and game result -->
         <div id="score-board">
             <div id="player-score">Player:</div>
             <div id="computer-score">Computer:</div>
             <div id="result"></div>
         </div>
+        <!-- Button to restart the game -->
         <button id="reset-button">Restart</button>
-
     </div>
 
-
-
-    <script src="script.js"></script>
+    <!-- Link to the JavaScript file for game logic -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
