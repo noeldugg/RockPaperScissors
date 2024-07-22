@@ -14,10 +14,18 @@ const resetButton = document.getElementById("reset-button");
 let playerScoreCount = 0;
 let computerScoreCount = 0;
 
+
+
+const playableElements = {
+  "rock": rock,
+  "paper": paper,
+  "scissors": scissors,
+}
+
 // Event listeners for player choices and reset button
-rock.addEventListener("click", () => game("rock"));
-paper.addEventListener("click", () => game("paper"));
-scissors.addEventListener("click", () => game("scissors"));
+for (const [key, element] of Object.entries(playableElements)) {
+    element.addEventListener("click", () => game(key));
+}
 resetButton.addEventListener("click", resetGame);
 
 /**
